@@ -1,11 +1,11 @@
 Metadata-Version: 1.1
 Name: pytest-runner
-Version: 2.6.2
+Version: 2.7
 Summary: Invoke py.test as distutils command with dependency resolution.
 Home-page: https://bitbucket.org/pytest-dev/pytest-runner
 Author: Jason R. Coombs
 Author-email: jaraco@jaraco.com
-License: MIT
+License: UNKNOWN
 Description: pytest-runner
         =============
         
@@ -26,7 +26,7 @@ Description: pytest-runner
           section of setup.cfg.
         - Set permanent options for the pytest run itself in the ``[pytest]``
           section of pytest.ini or tox.ini. See `pytest 567
-          <https://bitbucket.org/hpk42/pytest/issue/567>`_ for details on
+          <https://bitbucket.org/pytest-dev/pytest/issues/567/>`_ for details on
           why setup.cfg is inadequate.
         - Optionally, set ``test=pytest`` in the ``[aliases]`` section of setup.cfg
           to cause ``setup.py test`` to invoke pytest.

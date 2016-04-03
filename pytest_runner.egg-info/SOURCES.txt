@@ -1,7 +1,9 @@
+.gitignore
 .hgignore
 .hgtags
-CHANGES.txt
-README.txt
+.travis.yml
+CHANGES.rst
+README.rst
 ptr.py
 pytest.ini
 setup.cfg
