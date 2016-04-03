@@ -1,5 +1,5 @@
-pytest-runner (2.7-1) UNRELEASED; urgency=medium
+pytest-runner (2.7-1) unstable; urgency=medium
 
   * Initial release. (Closes: #819853)
 
- -- Brian May <bam@debian.org>  Sat, 26 Mar 2016 15:29:22 +1100
+ -- Brian May <bam@debian.org>  Sun, 03 Apr 2016 13:53:31 +1000
