@@ -14,17 +14,17 @@ Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/pytest-runn
 Package: python-pytest-runner
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
-Description: Python bit pack/unpack package
- This module is intended to have a similar interface as the python struct
- module, but working on bits instead of primitive data types (char, int, ...).
+Description: Invoke py.test as distutils command with dependency resolution
+ Setup scripts can use pytest-runner to add setup.py test support for pytest
+ runner.
  .
  This package contains the Python 2 module.
 
 Package: python3-pytest-runner
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
-Description: Python bit pack/unpack package
- This module is intended to have a similar interface as the python struct
- module, but working on bits instead of primitive data types (char, int, ...).
+Description: Invoke py.test as distutils command with dependency resolution
+ Setup scripts can use pytest-runner to add setup.py test support for pytest
+ runner.
  .
  This package contains the Python 3 module.
