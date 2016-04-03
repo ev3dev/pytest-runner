@@ -6,3 +6,6 @@
 pytest-runner_2.6.2.orig.tar.gz
 838dcf336c9763d46ab6fe60399e266a0494baa5
 6379
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
