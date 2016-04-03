@@ -1,11 +1,11 @@
 # see git-dpm(1) from git-dpm package
-94dcc1acb1c8eb1f2e46bce1799a7ac56724aeae
-94dcc1acb1c8eb1f2e46bce1799a7ac56724aeae
-94dcc1acb1c8eb1f2e46bce1799a7ac56724aeae
-94dcc1acb1c8eb1f2e46bce1799a7ac56724aeae
-pytest-runner_2.6.2.orig.tar.gz
-838dcf336c9763d46ab6fe60399e266a0494baa5
-6379
+d89c5c0e0aef674148cd47b2bfd273d55401f573
+d89c5c0e0aef674148cd47b2bfd273d55401f573
+d89c5c0e0aef674148cd47b2bfd273d55401f573
+d89c5c0e0aef674148cd47b2bfd273d55401f573
+pytest-runner_2.7.orig.tar.gz
+b3ebefd7ea840a57ce168e16226aa7c2729904d2
+6525
 debianTag="debian/%e%v"
 patchedTag="patched/%e%v"
 upstreamTag="upstream/%e%u"
