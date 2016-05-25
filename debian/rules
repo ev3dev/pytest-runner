@@ -5,3 +5,6 @@ export PYBUILD_NAME=pytest-runner
 
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
+
+override_dh_installchangelogs:
+	dh_installchangelogs CHANGES.rst
