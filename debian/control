@@ -6,7 +6,7 @@ Uploaders: Brian May <bam@debian.org>
 Build-Depends: debhelper (>=9), dh-python,
  python-all (>= 2.6.6-3~), python-setuptools, python-setuptools-scm,
  python3-all, python3-setuptools, python3-setuptools-scm,
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: https://github.com/pytest-dev/pytest-runner
 Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/pytest-runner.git
 Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/pytest-runner.git
