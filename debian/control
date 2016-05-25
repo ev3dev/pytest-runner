@@ -14,7 +14,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/pytest-runn
 Package: python-pytest-runner
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
-Description: Invoke py.test as distutils command with dependency resolution
+Description: Invoke py.test as distutils command with dependency resolution - Python 2.x
  Setup scripts can use pytest-runner to add setup.py test support for pytest
  runner.
  .
@@ -23,7 +23,7 @@ Description: Invoke py.test as distutils command with dependency resolution
 Package: python3-pytest-runner
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
-Description: Invoke py.test as distutils command with dependency resolution
+Description: Invoke py.test as distutils command with dependency resolution - Python 3.x
  Setup scripts can use pytest-runner to add setup.py test support for pytest
  runner.
  .
