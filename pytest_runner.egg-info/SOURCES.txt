@@ -3,6 +3,7 @@
 .hgtags
 .travis.yml
 CHANGES.rst
+LICENSE
 README.rst
 ptr.py
 pytest.ini

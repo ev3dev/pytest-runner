@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: pytest-runner
-Version: 2.7.1
+Version: 2.8
 Summary: Invoke py.test as distutils command with dependency resolution
 Home-page: https://github.com/pytest-dev/pytest-runner
 Author: Jason R. Coombs
@@ -20,7 +20,7 @@ Description: pytest-runner
         - Include 'pytest' and any other testing requirements to 'tests_require'.
         - Invoke tests with ``setup.py pytest``.
         - Pass ``--index-url`` to have test requirements downloaded from an alternate
-          index URL.
+          index URL (unnecessary if specified for easy_install in setup.cfg).
         - Pass additional py.test command-line options using ``--addopts``.
         - Set permanent options for the pytest distutils command in the ``[pytest]``
           section of setup.cfg.
