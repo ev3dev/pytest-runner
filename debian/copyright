@@ -4,7 +4,7 @@ Upstream-Contact: Jason R. Coombs
 Source: http://pypi.python.org/pypi/pytest-runner/
 
 Files: *
-Copyright: 2015, Jason R. Coombs
+Copyright: 2011-2016, Jason R. Coombs
 License: Expat
 
 Files: debian/*
