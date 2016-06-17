@@ -6,7 +6,9 @@ pytest-runner (2.8-1) UNRELEASED; urgency=medium
   * Added upstream changelog
   * Depend on newer dh-python which sets SETUPTOOLS_SCM_PRETEND_VERSION
   * wrap-and-sort -t -a
-  * d/copyright: Changed copyright year for new release
+  * d/copyright
+    - Changed copyright year for new release
+    - Added myself to Debian part
 
  -- Ondřej Nový <novy@ondrej.org>  Wed, 25 May 2016 16:31:17 +0200
 
