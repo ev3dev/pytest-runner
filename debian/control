@@ -3,9 +3,9 @@ Section: python
 Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Brian May <bam@debian.org>,
-Build-Depends: debhelper (>=9),
+Build-Depends: debhelper (>= 9),
                dh-python (>= 2.20160609~),
-               python-all (>= 2.6.6-3~),
+               python-all,
                python-pytest,
                python-setuptools,
                python-setuptools-scm,

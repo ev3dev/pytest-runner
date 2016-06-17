@@ -10,6 +10,7 @@ pytest-runner (2.8-1) UNRELEASED; urgency=medium
     - Changed copyright year for new release
     - Added myself to Debian part
   * Added python{3,}-pytest to B-D
+  * Removed version from python-all in B-D
 
  -- Ondřej Nový <novy@ondrej.org>  Wed, 25 May 2016 16:31:17 +0200
 
