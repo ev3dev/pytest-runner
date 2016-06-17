@@ -2,8 +2,6 @@
 # -*- makefile -*-
 
 export PYBUILD_NAME=pytest-runner
-export DEBVERS := $(shell dpkg-parsechangelog | sed -n -e 's/^Version: //p')
-export SETUPTOOLS_SCM_PRETEND_VERSION := $(shell echo '$(DEBVERS)' | sed -e 's/^[[:digit:]]*://' -e 's/[-].*//')
 
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild

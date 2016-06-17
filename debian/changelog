@@ -3,8 +3,7 @@ pytest-runner (2.7.1-2) UNRELEASED; urgency=medium
   * Standards-Version is 3.9.8 now (no changes needed)
   * Distinguish between Py2 and Py3 version in short description
   * Added upstream changelog
-  * Set SETUPTOOLS_SCM_PRETEND_VERSION during build to fix building from
-    Debian git
+  * Depend on newer dh-python which sets SETUPTOOLS_SCM_PRETEND_VERSION
 
  -- Ondřej Nový <novy@ondrej.org>  Wed, 25 May 2016 16:31:17 +0200
 
