@@ -1,8 +1,23 @@
-pytest-runner
-=============
+.. image:: https://img.shields.io/pypi/v/pytest-runner.svg
+   :target: https://pypi.org/project/pytest-runner
+
+.. image:: https://img.shields.io/pypi/pyversions/pytest-runner.svg
+
+.. image:: https://img.shields.io/pypi/dm/pytest-runner.svg
+
+.. image:: https://img.shields.io/travis/pytest-dev/pytest-runner/master.svg
+   :target: http://travis-ci.org/pytest-dev/pytest-runner
 
 Setup scripts can use pytest-runner to add setup.py test support for pytest
 runner.
+
+
+License
+=======
+
+License is indicated in the project metadata (typically one or more
+of the Trove classifiers). For more details, see `this explanation
+<https://github.com/jaraco/skeleton/issues/1>`_.
 
 Usage
 -----
@@ -14,14 +29,14 @@ Usage
 - Pass ``--index-url`` to have test requirements downloaded from an alternate
   index URL (unnecessary if specified for easy_install in setup.cfg).
 - Pass additional py.test command-line options using ``--addopts``.
-- Set permanent options for the pytest distutils command in the ``[pytest]``
-  section of setup.cfg.
-- Set permanent options for the pytest run itself in the ``[pytest]``
-  section of pytest.ini or tox.ini. See `pytest 567
-  <https://bitbucket.org/pytest-dev/pytest/issues/567/>`_ for details on
-  why setup.cfg is inadequate.
-- Optionally, set ``test=pytest`` in the ``[aliases]`` section of setup.cfg
-  to cause ``setup.py test`` to invoke pytest.
+- Set permanent options for the ``python setup.py pytest`` command (like ``index-url``)
+  in the ``[pytest]`` section of ``setup.cfg``.
+- Set permanent options for the ``py.test`` run (like ``addopts`` or ``pep8ignore``) in the ``[pytest]``
+  section of ``pytest.ini`` or ``tox.ini`` or put them in the ``[tool:pytest]``
+  section of ``setup.cfg``. See `pytest issue 567
+  <https://github.com/pytest-dev/pytest/issues/567>`_.
+- Optionally, set ``test=pytest`` in the ``[aliases]`` section of ``setup.cfg``
+  to cause ``python setup.py test`` to invoke pytest.
 
 Example
 -------
@@ -41,12 +56,16 @@ Additional dependencies require to run the tests (e.g. mock or pytest
 plugins) may be added to tests_require and will be downloaded and
 required by the session before invoking pytest.
 
-See the `jaraco.collections
-<https://github.com/jaraco/jaraco.collections>`_ project
-for real-world usage.
+Follow `this search on github
+<https://github.com/search?utf8=%E2%9C%93&q=filename%3Asetup.py+pytest-runner&type=Code&ref=searchresults>`_
+for examples of real-world usage.
 
 Standalone Example
 ------------------
+
+This technique is deprecated - if you have standalone scripts
+you wish to invoke with dependencies, `use rwt
+<https://pypi.org/project/rwt>`_.
 
 Although ``pytest-runner`` is typically used to add pytest test
 runner support to maintained packages, ``pytest-runner`` may
