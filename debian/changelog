@@ -1,4 +1,4 @@
-pytest-runner (2.11.1-1) UNRELEASED; urgency=medium
+pytest-runner (2.11.1-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
   * Distinguish between Py2 and Py3 version in short description
@@ -15,7 +15,7 @@ pytest-runner (2.11.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update Standards-Version to 4.0.0.
 
- -- Brian May <bam@debian.org>  Tue, 11 Jul 2017 17:39:16 +1000
+ -- Brian May <bam@debian.org>  Tue, 11 Jul 2017 18:01:58 +1000
 
 pytest-runner (2.7.1-1) unstable; urgency=medium
 
