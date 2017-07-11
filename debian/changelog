@@ -1,7 +1,6 @@
 pytest-runner (2.11.1-1) UNRELEASED; urgency=medium
 
   [ Ondřej Nový ]
-  * Standards-Version is 3.9.8 now (no changes needed)
   * Distinguish between Py2 and Py3 version in short description
   * Added upstream changelog
   * Depend on newer dh-python which sets SETUPTOOLS_SCM_PRETEND_VERSION
@@ -14,6 +13,7 @@ pytest-runner (2.11.1-1) UNRELEASED; urgency=medium
 
   [ Brian May ]
   * New upstream release.
+  * Update Standards-Version to 4.0.0.
 
  -- Brian May <bam@debian.org>  Tue, 11 Jul 2017 17:39:16 +1000
 
