@@ -8,3 +8,6 @@ export PYBUILD_NAME=pytest-runner
 
 override_dh_installchangelogs:
 	dh_installchangelogs CHANGES.rst
+
+override_dh_auto_test:
+# Tests not enabled because there don't appear to be any tests to run.
