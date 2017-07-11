@@ -1,3 +1,34 @@
+2.11.1
+~~~~~~
+
+* #28: Fix logic in marker evaluation.
+
+2.11
+~~~~
+
+* #27: Improved wording in the README around configuration
+  for the distutils command and pytest proper.
+
+2.10.1
+~~~~~~
+
+* #21: Avoid mutating dictionary keys during iteration.
+
+2.10
+~~~~
+
+* #20: Leverage technique in `setuptools 794
+  <https://github.com/pypa/setuptools/issues/794>`_
+  to populate PYTHONPATH during test runs such that
+  Python subprocesses will have a dependency context
+  comparable to the test runner.
+
+2.9
+~~~
+
+* Added Trove Classifier indicating this package is part
+  of the pytest framework.
+
 2.8
 ~~~
 
