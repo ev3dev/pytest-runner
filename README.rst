@@ -3,24 +3,20 @@
 
 .. image:: https://img.shields.io/pypi/pyversions/pytest-runner.svg
 
-.. image:: https://img.shields.io/pypi/dm/pytest-runner.svg
-
 .. image:: https://img.shields.io/travis/pytest-dev/pytest-runner/master.svg
-   :target: http://travis-ci.org/pytest-dev/pytest-runner
+   :target: https://travis-ci.org/pytest-dev/pytest-runner
+
+.. .. image:: https://img.shields.io/appveyor/ci/pytest-dev/pytest-runner/master.svg
+..    :target: https://ci.appveyor.com/project/pytest-dev/pytest-runner/branch/master
+
+.. .. image:: https://readthedocs.org/projects/pytest-runner/badge/?version=latest
+..    :target: https://pytest-runner.readthedocs.io/en/latest/?badge=latest
 
 Setup scripts can use pytest-runner to add setup.py test support for pytest
 runner.
 
-
-License
-=======
-
-License is indicated in the project metadata (typically one or more
-of the Trove classifiers). For more details, see `this explanation
-<https://github.com/jaraco/skeleton/issues/1>`_.
-
 Usage
------
+=====
 
 - Add 'pytest-runner' to your 'setup_requires'. Pin to '>=2.0,<3dev' (or
   similar) to avoid pulling in incompatible versions.
@@ -39,7 +35,7 @@ Usage
   to cause ``python setup.py test`` to invoke pytest.
 
 Example
--------
+=======
 
 The most simple usage looks like this in setup.py::
 
@@ -61,7 +57,7 @@ Follow `this search on github
 for examples of real-world usage.
 
 Standalone Example
-------------------
+==================
 
 This technique is deprecated - if you have standalone scripts
 you wish to invoke with dependencies, `use rwt
@@ -94,10 +90,10 @@ As a result, the communication barrier for describing and
 replicating failures is made almost trivially low.
 
 Considerations
---------------
+==============
 
 Conditional Requirement
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 Because it uses Setuptools setup_requires, pytest-runner will install itself
 on every invocation of setup.py. In some cases, this causes delays for
