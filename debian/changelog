@@ -1,9 +1,13 @@
-pytest-runner (2.11.1-2) UNRELEASED; urgency=medium
+pytest-runner (4.2-1ev3dev1) stable; urgency=medium
 
-  * d/control: Set Vcs-* to salsa.debian.org
+  [ Ondřej Nový ]
   * d/copyright: Use https protocol in Format field
 
- -- Ondřej Nový <onovy@debian.org>  Tue, 13 Feb 2018 10:10:45 +0100
+  [ David Lechner ]
+  * ev3dev takeover
+  * New upstream version 4.2
+
+ -- David Lechner <david@lechnology.com>  Tue, 20 Nov 2018 12:01:45 -0600
 
 pytest-runner (2.11.1-1) unstable; urgency=medium
 
