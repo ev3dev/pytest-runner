@@ -11,3 +11,6 @@ override_dh_installchangelogs:
 
 override_dh_auto_test:
 # Tests not enabled because there don't appear to be any tests to run.
+
+override_dh_auto_clean:
+	# this creates new files and causes problems
