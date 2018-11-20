@@ -1,8 +1,7 @@
 Source: pytest-runner
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Brian May <bam@debian.org>,
+Maintainer: David Lechner <david@lechnology.com>
 Build-Depends: debhelper (>= 9),
                dh-python (>= 2.20160609~),
                python-all,
@@ -15,8 +14,8 @@ Build-Depends: debhelper (>= 9),
                python3-setuptools-scm,
 Standards-Version: 4.0.0
 Homepage: https://github.com/pytest-dev/pytest-runner
-Vcs-Git: https://salsa.debian.org/python-team/modules/pytest-runner.git
-Vcs-Browser: https://salsa.debian.org/python-team/modules/pytest-runner
+Vcs-Git: https://github.com/ev3dev/pytest-runner.git
+Vcs-Browser: https://github.com/ev3dev/pytest-runner
 
 Package: python-pytest-runner
 Architecture: all
